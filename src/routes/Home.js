@@ -13,7 +13,6 @@ function Home() {
     useEffect(() => {
       getMvies();
     }, [])
-    console.log(movies)
     return (
       <div>
         {loading ? (
